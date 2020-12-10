@@ -7,13 +7,12 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site running on App Platform!</p>
-    <p>Now go build something great.</p>
+    <SEO title="Meplex - organize sua comunicação online fortalecendo sua identidade" />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <p>Bem-vindo a plataforma Meplex, a solução simples para sites pessoais voltada para profissionais que adoram se comunicar com seus usuários. </p>
+    <p>Now go build something great.</p>
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
